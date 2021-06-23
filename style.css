@@ -1,49 +1,122 @@
-header {
-    padding: 20px 35px;
-    background-color: #19706c;
-    display:flex;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width:  1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #197047;
+    font-family: "Ubuntu", sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-     }
+}
+.navbar .logo a{
+    color: darkmagenta;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+   
+}
 
-     header nav {
-        margin: 7px 0;
-      }
-    
-    header nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-      }
-    
-    header nav ul li a {
-        margin: 0 30px;
-        font-weight: lighter;
-        font-size: 1.3vw;
-        color: var(--primary-color);
-        text-decoration: none;
-        border-bottom: 2px solid;
-        padding-bottom: 2px;
-      }
 
-      .about{
-        padding: 20px 35px;
-        background-color: #19706c;
-        display:flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-         } 
+   .navbar .menu li a{
+       color: #fff;
+       font-size: 18px;
+       font-weight: 500;
+       margin-left: 25px;
+   }
 
-         .MyWork{
-            padding: 5px 10px;
-            background-color: #19706c;
-            display:flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-             } 
+   /* home section styling */
+   .home{
+       display: flex;
+       background: url("images/Arturo\ pic.png") no-repeat center;
+       height: 60vh;
+       color: firebrick;
+       min-height: 400px;
+       font-family: 'Ubuntu', sans-serif;  
+       background-color: cadetblue;
+       font-family: 'Fredericka the Great', cursive;
+   }
 
-         
+   .home .max-width{
+       margin: auto 5px auto 40px;
+   }
+   .home .home-content .intro-a{
+    font-size: 40px;
+    margin: 5px 0;
+    height: 50px;
+   }
+   .home .home-content .intro-b{
+    font-size: 40px;
+    margin: 5px 0;
+    height: 50px;
+}
+.home .home-content .intro-c{
+    font-size: 40px;
+    margin: 5px 0;
+    height: 50px2
+
+}
+.me {
+    background-color: lightgrey;
+  width:1400px;
+  border:5px solid black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 10px;
   
+ 
+  
+  }
+
+  .MW {
+    background-color: lightgrey;
+  width:1400px;
+  border:5px solid black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 10px;
+ 
+  
+  }
+
+  .CM{
+    background-color: lightgrey;
+  width:1400px;
+  border:5px solid black;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+ grid-template-columns: 10px;
+ 
+  
+  }
+
+  button{
+      font-size: 16px;
+      
+  }
+
   
